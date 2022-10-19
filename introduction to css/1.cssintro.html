@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Introduction</title>
+    <style>
+        /* selector just points to the html element we want to style */
+
+           /* selector{
+            property: value;
+            property2: value2;
+            property3: value3
+           } */
+
+           /* SIMPLE SELECTORS
+           1.Tag or name selector
+           2.id selector
+           3.class selector */
+
+           /* 1.Tag selector : selects all at once */
+           h1{
+            color: black;
+           }
+
+           /* Inline  vs Block
+           div{
+            background-color: pink;
+           }
+           span{
+            background-color: aqua;
+           }
+           p{
+            background-color: orange;
+           }
+           a{
+            background-color: yellowgreen;
+           } */
+
+           /* 2.ID selector : unique
+           #idname */
+           #yo-header{
+            color: palevioletred;
+           }
+           #green-header{
+            color: green;
+           }
+
+           /* 3.CLASS selector
+           a class selector can be assigned multiple times also one element can be assigned multiple class
+           .classname*/
+           .brown{
+            color: brown;
+            text-align: center;
+           }
+
+           .yellow{
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            /* margin: 40px; */
+            margin-left: 40px;
+            padding: 40px;
+            border: 10px solid green;
+           }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <!-- CSS = Cascading Stylesheets
+    It is neither a programming language nor a markup language,
+    it is just a stylesheet or  style language.
+    It describes how html elements should be displayed on a webpage-->
+
+    <h1>CSS INTRODUCTION</h1>
+    <h1 id="yo-header">CSS Introduction</h1>
+    <h1>this is header 1</h1>
+    <h1 id="green-header">this is header 2</h1>
+    <h1 class="brown">this is header 3</h1>
+
+    <div class="brown">this is a div1</div>
+    <div>this is a div2</div>
+    <div>this is a div3</div>
+
+    <div class="yellow">content</div>
+
+
+    <!-- INLINE VS BLOCK ELEMENTS -->
+    <!-- <div>this is div 1</div>
+    <div>this is div 2</div> = div is block element
+    <span>this is span 1</span> = span is inline  element/ it just takes content space
+    <span>this is span 2</span>
+    <p>this is paragraph 1</p>
+    <p>this is paragraph 2</p> = para tag is a block element
+    <a href="">this is link 1</a>
+    <a href="">this is link 2</a> = inline element -->
+
+
+    <!-- BOX MODEL
+    It is a box that wraps around every element 
+    It consists of margins, padding, border, content -->
+    <!-- Content -> Content of the box where it has some text, images etc
+    Padding -> It is an area that clears around the content. It is transparent.
+    Border -> It surrounds the padding and content.
+    Margin -> It clears an area outside of the border. It is also transparent. -->
+
+</body>
+</html>
